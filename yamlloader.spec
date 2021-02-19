@@ -4,7 +4,7 @@
 #
 Name     : yamlloader
 Version  : 0.5.5
-Release  : 5
+Release  : 6
 URL      : https://files.pythonhosted.org/packages/d5/93/11628e0d09213b7570d625b3399045f0eb413bbe49a400d764d1d612d807/yamlloader-0.5.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/d5/93/11628e0d09213b7570d625b3399045f0eb413bbe49a400d764d1d612d807/yamlloader-0.5.5.tar.gz
 Summary  : Ordered YAML loader and dumper for PyYAML.
