@@ -1,5 +1,5 @@
 PKG_NAME := yamlloader
-URL = https://files.pythonhosted.org/packages/d5/93/11628e0d09213b7570d625b3399045f0eb413bbe49a400d764d1d612d807/yamlloader-0.5.5.tar.gz
+URL = https://files.pythonhosted.org/packages/41/06/8642beeb5f68187ffedb9fd88d68a8b429601e93eec7edc128d6e51ad7f0/yamlloader-1.0.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
