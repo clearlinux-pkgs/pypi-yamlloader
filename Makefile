@@ -1,5 +1,5 @@
 PKG_NAME := pypi-yamlloader
-URL = https://files.pythonhosted.org/packages/9e/10/fbb1fb0d600f167b4ddeb83a5e66307c5c0d56860595e02c9387861b686d/yamlloader-1.1.0.tar.gz
+URL = https://files.pythonhosted.org/packages/89/45/3786d04660dd30a9966128a797fcbff0e3d1c6f8bb23b6f8e90e06f213a5/yamlloader-1.2.2.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
