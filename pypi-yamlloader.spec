@@ -6,10 +6,10 @@
 # autospec commit: 5424026
 #
 Name     : pypi-yamlloader
-Version  : 1.5.0
-Release  : 33
-URL      : https://files.pythonhosted.org/packages/cc/2a/0c79b049f080ea1659bcb0d41ce654f57cbadea4bc7b97f4d767908a80d7/yamlloader-1.5.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/cc/2a/0c79b049f080ea1659bcb0d41ce654f57cbadea4bc7b97f4d767908a80d7/yamlloader-1.5.0.tar.gz
+Version  : 1.5.1
+Release  : 34
+URL      : https://files.pythonhosted.org/packages/6f/6b/7f094b4d9009794cb69dea18c99bdee4e62b4e0ee69bb19128178191f18a/yamlloader-1.5.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/6f/6b/7f094b4d9009794cb69dea18c99bdee4e62b4e0ee69bb19128178191f18a/yamlloader-1.5.1.tar.gz
 Summary  : Ordered YAML loader and dumper for PyYAML.
 Group    : Development/Tools
 License  : MIT
@@ -55,17 +55,16 @@ Summary: python3 components for the pypi-yamlloader package.
 Group: Default
 Requires: python3-core
 Provides: pypi(yamlloader)
-Requires: pypi(pyyaml)
 
 %description python3
 python3 components for the pypi-yamlloader package.
 
 
 %prep
-%setup -q -n yamlloader-1.5.0
-cd %{_builddir}/yamlloader-1.5.0
+%setup -q -n yamlloader-1.5.1
+cd %{_builddir}/yamlloader-1.5.1
 pushd ..
-cp -a yamlloader-1.5.0 buildavx2
+cp -a yamlloader-1.5.1 buildavx2
 popd
 
 %build
@@ -73,7 +72,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1735102449
+export SOURCE_DATE_EPOCH=1735831530
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
