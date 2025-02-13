@@ -7,7 +7,7 @@
 #
 Name     : pypi-yamlloader
 Version  : 1.5.1
-Release  : 34
+Release  : 35
 URL      : https://files.pythonhosted.org/packages/6f/6b/7f094b4d9009794cb69dea18c99bdee4e62b4e0ee69bb19128178191f18a/yamlloader-1.5.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/6f/6b/7f094b4d9009794cb69dea18c99bdee4e62b4e0ee69bb19128178191f18a/yamlloader-1.5.1.tar.gz
 Summary  : Ordered YAML loader and dumper for PyYAML.
